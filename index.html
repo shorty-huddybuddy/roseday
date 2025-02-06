@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Rose Day 🌹</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Background Effects -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <h1 class="glow-text">🌹 Happy Rose Day! 🌹</h1>
+        <p class="message" id="personal-message">May your life be filled with love, happiness, and beautiful roses! 💖</p>
+        
+        <div class="rose-3d">
+            <img src="rose.png" alt="Rose">
+        </div>
+
+        <button onclick="showMessage()">Click for a Surprise! 🎁</button>
+        <p id="special-message" class="hidden">You are as special as a blooming rose! 🌷💝</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="particles.min.js"></script> <!-- Particle Effects -->
+</body>
+</html>
