@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Set the name dynamically
-    let herName = "KUMU";  // Change this to her name
+    let herName = "xyz";  // Change this to her name
     let message = document.getElementById("personal-message");
     message.innerHTML = `Dear ${herName}, May your life be filled with love, happiness, and beautiful roses! 💖`;
 
